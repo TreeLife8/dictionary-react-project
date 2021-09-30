@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Search.css";
 
 export default function Search() {
+  const [keyword, setKeyword] = useState("");
   function search(event) {
     event.preventDefault();
-    console.log("searching");
+    console.log(`searching for ${keyword}`);
+  }
+  function updateWord(response) {
+    setKeyword(response.target.value);
   }
   return (
     <div className="Search">
@@ -16,6 +20,7 @@ export default function Search() {
             placeholder="enter a word"
             autoComplete={true}
             autoFocus={true}
+            onChange={updateWord}
           ></input>
           <input className="btn btn-light" type="submit" value="search"></input>
         </form>
