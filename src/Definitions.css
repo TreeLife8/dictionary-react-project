@@ -1,0 +1,19 @@
+ul {
+  padding: 2px;
+}
+li {
+  list-style: none;
+  text-align: left;
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+}
+h6 {
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  padding-top: 10px;
+  padding-botton: 0;
+  font-family: "Prata", serif;
+  margin-bottom: 2px;
+}
