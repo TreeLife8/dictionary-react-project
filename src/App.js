@@ -8,7 +8,9 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <ShapeDivider />
-        <h1>Dictionary</h1>
+        <a href="/">
+          <h1>Dictionary</h1>
+        </a>
         <Search />
       </header>
       <footer>

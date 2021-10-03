@@ -2,6 +2,9 @@
   text-align: center;
   color: #43464d;
 }
+a:hover {
+  color: #43464d;
+}
 a {
   opacity: 0.5;
   color: #43464d;

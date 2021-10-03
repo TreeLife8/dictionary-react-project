@@ -17,7 +17,7 @@ export default function Results(props) {
             target="_blank"
           >
             {" "}
-            audio
+            audio 🔉
           </a>{" "}
         </h3>
         {props.data.origin !== undefined ? (
