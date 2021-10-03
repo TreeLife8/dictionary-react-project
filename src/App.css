@@ -17,6 +17,10 @@ h1 {
   color: #61dafb;
 }
 .App footer {
-  background: white;
-  padding: 15px;
+  padding: 25px;
+}
+.divider {
+  display: block;
+  margin: auto;
+  max-width: 80%;
 }

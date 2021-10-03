@@ -12,6 +12,7 @@ export default function App() {
         <Search />
       </header>
       <footer>
+        <hr className="divider mb-4" />
         Coded by <img src={logo} className="App-logo" alt="logo" />
       </footer>
     </div>

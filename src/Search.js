@@ -30,7 +30,7 @@ export default function Search() {
             autoFocus={true}
             onChange={updateWord}
           ></input>
-          <input className="btn btn-light" type="submit" value="search"></input>
+          <input className="btn" type="submit" value="search"></input>
         </form>
         <Results data={results} />
       </div>

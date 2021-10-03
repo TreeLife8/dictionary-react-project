@@ -5,3 +5,25 @@ form {
   max-width: 400px;
   margin-right: 15px;
 }
+.btn {
+  background: rgb(239, 90, 131);
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 3px 3px 8px rgba(125, 125, 125, 0.6);
+  transition: all 200ms ease-in-out;
+}
+.btn:hover {
+  color: white;
+  opacity: 0.9;
+}
+.form:active,
+.form:focus,
+.btn:active,
+.btn:focus {
+  border-color: rgb(239, 90, 131);
+  box-shadow: 0 0 0 0.25rem rgba(239, 90, 131, 0.3);
+}
+.btn:active,
+.btn:focus {
+  box-shadow: 3px 3px 8px rgba(125, 125, 125, 0.6);
+}
