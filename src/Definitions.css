@@ -1,5 +1,5 @@
 ul {
-  padding: 2px;
+  padding: 1px;
 }
 li {
   list-style: none;
@@ -7,11 +7,6 @@ li {
   font-weight: 400;
   font-size: 14px;
 }
-h6 {
-  text-align: left;
-  font-size: 16px;
-  padding-top: 10px;
-  padding-botton: 0;
-  font-family: "Prata", serif;
-  margin-bottom: 2px;
+.example {
+  opacity: 0.7;
 }

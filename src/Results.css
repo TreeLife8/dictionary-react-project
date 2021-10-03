@@ -1,9 +1,21 @@
 h2 {
-  text-transform: capitalize;
   font-weight: 300;
-  text-align: left;
   padding: 15px 15px 15px 0;
   font-weight: 500;
-  font-family: "Prata", serif;
   opacity: 0.7;
+  font-size: 25px;
+  display: inline-block;
+}
+.phonetic,
+.phonetic-audio {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.origin {
+  text-align: left;
+  padding-left: 10px;
+  opacity: 0.9;
+  font-weight: 200;
 }

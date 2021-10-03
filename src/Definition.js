@@ -7,7 +7,7 @@ export default function Definition(props) {
       <ul>
         <li>{props.definition.definition}</li>
         <li>
-          <em>{props.definition.example}</em>
+          <em className="example">{props.definition.example}</em>
         </li>
       </ul>
     </div>
