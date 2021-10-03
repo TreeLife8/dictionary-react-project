@@ -14,6 +14,10 @@ export default function App() {
       <footer>
         <hr className="divider mb-4" />
         Coded by <img src={logo} className="App-logo" alt="logo" />
+        and is{" "}
+        <a href="https://github.com/TreeLife8/dictionary-react-project">
+          open-source on GitHub
+        </a>
       </footer>
     </div>
   );
