@@ -15,7 +15,11 @@ export default function App() {
         <hr className="divider mb-4" />
         Coded by <img src={logo} className="App-logo" alt="logo" />
         and is{" "}
-        <a href="https://github.com/TreeLife8/dictionary-react-project">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/TreeLife8/dictionary-react-project"
+        >
           open-source on GitHub
         </a>
       </footer>

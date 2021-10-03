@@ -3,7 +3,6 @@ import Definition from "./Definition";
 import "./Meaning.css";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
   return (
     <div className="Meaning">
       <h3 className="mt-4 pt-3">{props.meaning.partOfSpeech}</h3>
