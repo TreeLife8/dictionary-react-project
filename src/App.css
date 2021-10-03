@@ -1,13 +1,12 @@
 .App {
   text-align: center;
-  background-color: #282c34e0;
+  color: #43464d;
 }
 h1 {
   padding-top: 150px;
   padding-bottom: 30px;
   text-align: center;
   font-size: 50px;
-  color: white;
   font-family: "Prata", serif;
 }
 .App-logo {
