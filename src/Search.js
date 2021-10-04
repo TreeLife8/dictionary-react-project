@@ -38,6 +38,7 @@ export default function Search(props) {
               type="search"
               className="form form-control"
               placeholder="enter a word"
+              defaultValue={props.defaultKey}
               autoFocus={true}
               onChange={updateWord}
             ></input>
