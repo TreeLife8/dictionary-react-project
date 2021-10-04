@@ -9,7 +9,6 @@ export default function Search() {
 
   function handleResponse(response) {
     setResults(response.data[0]);
-    console.log(results);
   }
   function search(event) {
     event.preventDefault();

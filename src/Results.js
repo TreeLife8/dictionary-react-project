@@ -10,9 +10,9 @@ export default function Results(props) {
         <h2 className="pt-3">{props.data.word}</h2>
         {props.data.phonetics.map(function (phonetic, index) {
           return (
-            <div key={index}>
+            <span key={index}>
               <Phonetic phonetic={phonetic} />
-            </div>
+            </span>
           );
         })}
         {props.data.origin ? (
