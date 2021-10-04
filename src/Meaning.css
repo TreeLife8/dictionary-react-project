@@ -5,6 +5,7 @@ h3 {
   font-weight: 800;
   opacity: 0.6;
   text-transform: uppercase;
+  color: rgb(239, 90, 131);
 }
 .Meaning {
   box-shadow: 0 0 8px rgba(196, 196, 196, 0.8);
