@@ -11,7 +11,7 @@ export default function App() {
         <a href="/">
           <h1>Dictionary</h1>
         </a>
-        <Search />
+        <Search defaultKey={"banana"} />
       </header>
       <footer>
         <hr className="divider mb-4" />
