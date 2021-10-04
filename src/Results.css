@@ -19,3 +19,9 @@ a {
   opacity: 0.9;
   font-weight: 200;
 }
+.word-summary {
+  box-shadow: 0 0 8px rgba(196, 196, 196, 0.8);
+  border-radius: 4px;
+  padding: 15px;
+  margin: 25px 0;
+}

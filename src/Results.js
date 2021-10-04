@@ -7,10 +7,10 @@ export default function Results(props) {
     return (
       <div className="Results">
         <h2 className="p-3">{props.data.word}</h2>
-        <h3 className="phonetic p-3">
+        <h2 className="phonetic p-3">
           <em>"{props.data.phonetic}"</em>
-        </h3>{" "}
-        <h3 className="phonetic-audio p-3">
+        </h2>{" "}
+        <h2 className="phonetic-audio p-3">
           <a
             href={props.data.phonetics[0].audio}
             rel="noreferrer"
@@ -19,13 +19,11 @@ export default function Results(props) {
             {" "}
             audio 🔉
           </a>{" "}
-        </h3>
-        {props.data.origin !== undefined ? (
-          <h3 className="origin-title">origin</h3>
-        ) : (
-          ""
-        )}
-        <p className="origin">{props.data.origin}</p>
+        </h2>
+        <div className="word-summary">
+          {props.data.origin ? <h3 className="origin-title">origin</h3> : ""}
+          <p className="origin">{props.data.origin}</p>
+        </div>
         {props.data.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
