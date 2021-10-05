@@ -9,7 +9,7 @@ export default function Definition(props) {
         <li>{props.definition.definition}</li>
         <li className="example">
           {props.definition.example !== undefined ? (
-            <strong>Example:</strong>
+            <strong>example:</strong>
           ) : (
             ""
           )}{" "}

@@ -37,6 +37,7 @@ export default function Search(props) {
     setKeyword(response.target.value);
   }
   if (loaded) {
+    console.log(photos);
     return (
       <div className="Search">
         <div className="container">
@@ -55,7 +56,11 @@ export default function Search(props) {
             <input className="btn" type="submit" value="search"></input>
           </form>
           <Results data={results} />
-          <Photos photos={photos} keyword={keyword} />
+          {photos.length > 0 ? (
+            <Photos photos={photos} keyword={keyword} />
+          ) : (
+            ""
+          )}
         </div>
       </div>
     );

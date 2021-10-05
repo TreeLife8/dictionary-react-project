@@ -8,9 +8,10 @@ li {
   font-size: 15px;
 }
 .example {
-  opacity: 0.7;
+  opacity: 0.8;
   padding-top: 4px;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 300;
 }
 strong {
   font-weight: 500;
@@ -18,4 +19,5 @@ strong {
 }
 .example strong {
   font-size: 14px;
+  opacity: 0.7;
 }
