@@ -33,3 +33,8 @@ h1 {
   margin: auto;
   max-width: 80%;
 }
+@media (max-width: 576px) {
+  h1 {
+    padding-top: 100px;
+  }
+}
