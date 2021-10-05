@@ -7,7 +7,7 @@ export default function Photos(props) {
       <div className="Photos row">
         {props.photos.map(function (photo, index) {
           return (
-            <div className="col-sm-4 mb-4">
+            <div className="col-sm-4 mt-2 mb-2">
               <a href={photo.src.original} target="_blank" rel="noreferrer">
                 <img
                   className=" img-fluid"
