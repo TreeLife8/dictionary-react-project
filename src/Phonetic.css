@@ -8,3 +8,8 @@ h4 {
 .Phonetic {
   display: inline-block;
 }
+.Phonetic button.audio {
+  background: white;
+  color: #43464d;
+  border: none;
+}
