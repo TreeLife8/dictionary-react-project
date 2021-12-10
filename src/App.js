@@ -15,8 +15,7 @@ export default function App() {
       </header>
       <footer>
         <hr className="divider mb-4" />
-        Coded by <img src={logo} className="App-logo" alt="logo" />
-        and is{" "}
+        Coded by Regina Maher and is{" "}
         <a
           target="_blank"
           rel="noreferrer"
