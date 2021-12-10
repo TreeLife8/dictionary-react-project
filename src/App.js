@@ -20,7 +20,7 @@ export default function App() {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://github.com/TreeLife8/dictionary-react-project"
+          href="https://github.com/regina-maher/dictionary-react-project"
         >
           open-source on GitHub
         </a>
